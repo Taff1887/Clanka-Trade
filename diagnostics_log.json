@@ -1,0 +1,63 @@
+[
+  {
+    "timestamp": "2025-09-08T05:41:16.750058",
+    "gpu": {
+      "torch_version": "2.5.1+cu121",
+      "cuda_available": true,
+      "device": "NVIDIA GeForce RTX 4080",
+      "memory_gb": 17.17
+    },
+    "clock_skew_ms": -639,
+    "rest_latency": {
+      "min": 109.33060001116246,
+      "avg": 154.15302000474185,
+      "max": 310.66189997363836
+    },
+    "ws_latency": {
+      "min": 287.32050000689924,
+      "avg": 298.8656800240278,
+      "max": 326.4165000291541
+    },
+    "throughput": {
+      "ticks": 200000,
+      "seconds": 0.15,
+      "rate": 1315960,
+      "device": "cuda"
+    }
+  },
+  {
+    "timestamp": "2025-09-08T05:49:47.002265",
+    "system": {
+      "os": "Windows",
+      "os_version": "10.0.26100",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+      "cpu_cores": 16,
+      "cpu_threads": 24,
+      "ram_gb": 16.94
+    },
+    "gpu": {
+      "torch_version": "2.5.1+cu121",
+      "cuda_available": true,
+      "device": "NVIDIA GeForce RTX 4080",
+      "memory_gb": 17.17
+    },
+    "clock_skew_ms": -661,
+    "rest_latency": {
+      "min": 109.99430005904287,
+      "avg": 234.97510000597686,
+      "max": 333.64359999541193
+    },
+    "ws_latency": {
+      "min": 292.4523000838235,
+      "avg": 305.5332399904728,
+      "max": 339.0679999720305
+    },
+    "throughput": {
+      "ticks": 200000,
+      "seconds": 0.13,
+      "rate": 1573014,
+      "device": "cuda"
+    }
+  }
+]
