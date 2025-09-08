@@ -1,0 +1,308 @@
+{
+  "tcp": [
+    {
+      "env": "spot",
+      "host": "testnet.binance.vision",
+      "port": 443,
+      "samples": 3,
+      "ms_p50": 7.681,
+      "ms_p90": 34.615,
+      "ms_min": 7.657,
+      "ms_max": 41.348,
+      "loss": 0.0,
+      "raw_ms": [
+        41.348,
+        7.681,
+        7.657
+      ]
+    },
+    {
+      "env": "spot",
+      "host": "stream.testnet.binance.vision",
+      "port": 443,
+      "samples": 3,
+      "ms_p50": 289.573,
+      "ms_p90": 290.641,
+      "ms_min": 287.083,
+      "ms_max": 290.908,
+      "loss": 0.0,
+      "raw_ms": [
+        287.083,
+        289.573,
+        290.908
+      ]
+    },
+    {
+      "env": "spot",
+      "host": "stream.testnet.binance.vision",
+      "port": 9443,
+      "samples": 3,
+      "ms_p50": 264.35,
+      "ms_p90": 266.27,
+      "ms_min": 262.947,
+      "ms_max": 266.749,
+      "loss": 0.0,
+      "raw_ms": [
+        266.749,
+        264.35,
+        262.947
+      ]
+    },
+    {
+      "env": "spot",
+      "host": "ws-api.testnet.binance.vision",
+      "port": 443,
+      "samples": 3,
+      "ms_p50": 286.937,
+      "ms_p90": 299.223,
+      "ms_min": 270.452,
+      "ms_max": 302.295,
+      "loss": 0.0,
+      "raw_ms": [
+        286.937,
+        302.295,
+        270.452
+      ]
+    },
+    {
+      "env": "spot",
+      "host": "ws-api.testnet.binance.vision",
+      "port": 9443,
+      "samples": 3,
+      "ms_p50": 283.433,
+      "ms_p90": 289.213,
+      "ms_min": 276.389,
+      "ms_max": 290.658,
+      "loss": 0.0,
+      "raw_ms": [
+        283.433,
+        276.389,
+        290.658
+      ]
+    },
+    {
+      "env": "futures",
+      "host": "testnet.binancefuture.com",
+      "port": 443,
+      "samples": 3,
+      "ms_p50": 28.092,
+      "ms_p90": 187.045,
+      "ms_min": 6.503,
+      "ms_max": 226.784,
+      "loss": 0.0,
+      "raw_ms": [
+        226.784,
+        28.092,
+        6.503
+      ]
+    },
+    {
+      "env": "futures",
+      "host": "fstream.binancefuture.com",
+      "port": 443,
+      "samples": 3,
+      "ms_p50": 289.252,
+      "ms_p90": 294.834,
+      "ms_min": 277.464,
+      "ms_max": 296.229,
+      "loss": 0.0,
+      "raw_ms": [
+        296.229,
+        289.252,
+        277.464
+      ]
+    },
+    {
+      "env": "futures",
+      "host": "dstream.binancefuture.com",
+      "port": 443,
+      "samples": 3,
+      "ms_p50": 327.285,
+      "ms_p90": 484.61,
+      "ms_min": 266.997,
+      "ms_max": 523.941,
+      "loss": 0.0,
+      "raw_ms": [
+        523.941,
+        266.997,
+        327.285
+      ]
+    }
+  ],
+  "https": [
+    {
+      "env": "spot",
+      "url": "https://testnet.binance.vision/api/v3/time",
+      "samples": 3,
+      "ms_p50": 292.148,
+      "ms_p90": 326.739,
+      "ms_min": 288.474,
+      "ms_max": 335.387,
+      "loss": 0.0,
+      "raw_ms": [
+        288.474,
+        335.387,
+        292.148
+      ]
+    },
+    {
+      "env": "spot",
+      "url": "https://testnet.binance.vision/api/v3/exchangeInfo",
+      "samples": 3,
+      "ms_p50": 321.193,
+      "ms_p90": 324.123,
+      "ms_min": 302.261,
+      "ms_max": 324.856,
+      "loss": 0.0,
+      "raw_ms": [
+        324.856,
+        321.193,
+        302.261
+      ]
+    },
+    {
+      "env": "futures",
+      "url": "https://testnet.binancefuture.com/fapi/v1/time",
+      "samples": 3,
+      "ms_p50": 333.571,
+      "ms_p90": 579.589,
+      "ms_min": 306.409,
+      "ms_max": 641.094,
+      "loss": 0.0,
+      "raw_ms": [
+        641.094,
+        333.571,
+        306.409
+      ]
+    },
+    {
+      "env": "futures",
+      "url": "https://testnet.binancefuture.com/fapi/v1/exchangeInfo",
+      "samples": 3,
+      "ms_p50": 445.979,
+      "ms_p90": 484.904,
+      "ms_min": 400.156,
+      "ms_max": 494.635,
+      "loss": 0.0,
+      "raw_ms": [
+        494.635,
+        400.156,
+        445.979
+      ]
+    }
+  ],
+  "wss": [
+    {
+      "env": "spot",
+      "url": "wss://stream.testnet.binance.vision/ws",
+      "handshake_ms": {
+        "p50": 1107.429,
+        "p90": 1208.803,
+        "min": 1092.206,
+        "max": 1234.146,
+        "loss": 0.0,
+        "raw": [
+          1234.146,
+          1107.429,
+          1092.206
+        ]
+      },
+      "pingpong_ms": {
+        "p50": null,
+        "p90": null,
+        "min": null,
+        "max": null,
+        "loss": 100.0,
+        "raw": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "env": "spot",
+      "url": "wss://ws-api.testnet.binance.vision/ws-api/v3",
+      "handshake_ms": {
+        "p50": 1090.172,
+        "p90": 1132.697,
+        "min": 1078.322,
+        "max": 1143.328,
+        "loss": 0.0,
+        "raw": [
+          1078.322,
+          1143.328,
+          1090.172
+        ]
+      },
+      "pingpong_ms": {
+        "p50": null,
+        "p90": null,
+        "min": null,
+        "max": null,
+        "loss": 100.0,
+        "raw": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "env": "futures",
+      "url": "wss://fstream.binancefuture.com/ws",
+      "handshake_ms": {
+        "p50": 1104.591,
+        "p90": 1158.415,
+        "min": 1083.678,
+        "max": 1171.872,
+        "loss": 0.0,
+        "raw": [
+          1171.872,
+          1104.591,
+          1083.678
+        ]
+      },
+      "pingpong_ms": {
+        "p50": null,
+        "p90": null,
+        "min": null,
+        "max": null,
+        "loss": 100.0,
+        "raw": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "env": "futures",
+      "url": "wss://dstream.binancefuture.com/ws",
+      "handshake_ms": {
+        "p50": 1085.686,
+        "p90": 1093.315,
+        "min": 1076.657,
+        "max": 1095.223,
+        "loss": 0.0,
+        "raw": [
+          1076.657,
+          1095.223,
+          1085.686
+        ]
+      },
+      "pingpong_ms": {
+        "p50": null,
+        "p90": null,
+        "min": null,
+        "max": null,
+        "loss": 100.0,
+        "raw": [
+          null,
+          null,
+          null
+        ]
+      }
+    }
+  ]
+}
