@@ -1,0 +1,33 @@
+{
+    "system": {
+        "os": "Windows 10.0.26100",
+        "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+        "cores": 16,
+        "threads": 24,
+        "ram_gb": 16.94
+    },
+    "gpu": {
+        "pytorch_version": "2.5.1+cu121",
+        "cuda_available": true,
+        "gpu_name": "NVIDIA GeForce RTX 4080",
+        "gpu_memory_gb": 17.17
+    },
+    "latency": {
+        "samples_ms": [
+            297.55,
+            279.19,
+            278.64,
+            278.91,
+            280.21,
+            277.7,
+            278.07,
+            280.94,
+            280.17,
+            279.85
+        ],
+        "avg_ms": 281.12,
+        "min_ms": 277.7,
+        "max_ms": 297.55,
+        "stdev_ms": 5.56
+    }
+}
